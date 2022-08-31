@@ -36,11 +36,9 @@ void refres_pocetni(){
 }
 
 void buzz_error(){
-  
   unsigned char i;
   
-  for(i = 0; i < 40; i++)
-    {
+  for(i = 0; i < 40; i++){
       digitalWrite(buzzer, HIGH);
       delay(10); // dilej 10 ms
       digitalWrite(buzzer, LOW);
@@ -49,11 +47,9 @@ void buzz_error(){
 }
 
 void buzz_good(){
-  
   unsigned char i;
       
-  for(i = 0; i < 100; i++)
-    {
+  for(i = 0; i < 100; i++){
       digitalWrite(buzzer, HIGH);
       delay(1); // dilej 1 ms
       digitalWrite(buzzer, LOW);
