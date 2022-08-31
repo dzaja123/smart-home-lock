@@ -87,7 +87,6 @@ void loop(){
         buzz_good();
         delay(2000);
         refres_pocetni();
-        
       } 
       else {
         //Serial.println("Sifra nije tacna, pokusajte ponovo");
